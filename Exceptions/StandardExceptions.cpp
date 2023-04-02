@@ -3,14 +3,13 @@
 class CanGoWrong
 {
 private:
-    /* data */
     char* pMemory;
 public:
-    CanGoWrong(/* args */ );
+    CanGoWrong();
     ~CanGoWrong();
 };
 
-CanGoWrong::CanGoWrong(/* args */ )
+CanGoWrong::CanGoWrong()
 {
     pMemory = new char[ 99999999999999999999999999999999999999999999999999999999 ];
 }

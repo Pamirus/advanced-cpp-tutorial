@@ -2,21 +2,15 @@
 
 class MyException : public std::exception
 {
-private:
-    /* data */
 public:
     MyException(/* args */);
     ~MyException();
     virtual const char* what() const throw();
 };
 
-MyException::MyException(/* args */)
-{
-}
+MyException::MyException() {}
 
-MyException::~MyException()
-{
-}
+MyException::~MyException() {}
 
 const char* MyException::what() const throw()
 {
@@ -26,21 +20,15 @@ const char* MyException::what() const throw()
 
 class Wrong
 {
-private:
-    /* data */
 public:
-    Wrong(/* args */);
+    Wrong();
     ~Wrong();
     void goesWrong();
 };
 
-Wrong::Wrong(/* args */)
-{
-}
+Wrong::Wrong() {}
 
-Wrong::~Wrong()
-{
-}
+Wrong::~Wrong() {}
 
 void Wrong::goesWrong()
 {
