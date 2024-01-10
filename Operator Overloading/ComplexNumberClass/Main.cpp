@@ -12,7 +12,7 @@ int main( int argc, char const* argv[] )
 
     myComplex = myComplex2;
 
-    std::cout << myComplex << std::endl;
+    std::cout << "myComplex: " << myComplex << "\nmyComplex2:" << myComplex2 << std::endl;
 
     return 0;
 }
