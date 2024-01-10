@@ -35,7 +35,7 @@ This tutorial was created by following [John Purcell](https://www.caveofprogramm
 1. [Overloading Assignment Operator](https://github.com/Pamirus/advanced-cpp-tutorial/blob/main/Operator%20Overloading/OverloadingAssignmentOperator.cpp)
 2. [Overloading Insertion Operator](https://github.com/Pamirus/advanced-cpp-tutorial/blob/main/Operator%20Overloading/OverloadingInsertionOperator.cpp)
 3. [A Complex Number Class](https://github.com/Pamirus/advanced-cpp-tutorial/blob/main/Operator%20Overloading/ComplexNumberClass)
-    * NOTE: run the complex number class with the command as follows: ``g++ Main.cpp Complex.cpp -o Main``
+    * NOTE: Run the "A Complex Number Class" project with the command as follows: ``g++ Main.cpp Complex.cpp -o Main``
 4. re*
 
 **Template Classes and Functions**
